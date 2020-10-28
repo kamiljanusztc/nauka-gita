@@ -29,7 +29,7 @@ p {
 
 .text {
   position: absolute;
-  top: 100%;
+  top: auto;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 50px 20px 50px 20px;
