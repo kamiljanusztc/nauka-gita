@@ -17,10 +17,6 @@ p {
   font-size: 16px;
 }
 
-section {
-  position: relative;
-}
-
 .song {
   max-width: 1140px;
   padding-left: 20px;
@@ -28,7 +24,7 @@ section {
 }
 
 .text {
-  position: absolute;
+
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
