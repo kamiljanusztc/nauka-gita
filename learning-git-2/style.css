@@ -18,7 +18,7 @@ p {
 }
 
 .song {
-
+  position: relative;
   max-width: 1140px;
   padding-left: 20px;
   padding-right: 20px;
