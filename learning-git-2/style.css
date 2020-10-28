@@ -18,6 +18,7 @@ p {
 }
 
 section {
+  display: block;
   max-width: 1140px;
   padding: 50px 20px 50px 20px;
   margin: auto;
