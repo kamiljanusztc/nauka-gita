@@ -19,6 +19,7 @@ p {
 
 .song {
   position: relative;
+  margin-left: 50%;
 }
 
 .text {
