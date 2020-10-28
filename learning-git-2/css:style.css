@@ -1,20 +1,18 @@
 /* Global */
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-  font-family: 'Arial';
+  font-family: 'Kanit', sans-serif;
   font-size: 50px;
 }
 
 h2 {
-  font-family: 'Kanit', sans-serif;
   font-size: 20px;
 }
 
 p {
-  font-family: 'Kanit', sans-serif;
   font-size: 16px;
 }
