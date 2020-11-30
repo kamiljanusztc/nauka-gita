@@ -1,0 +1,165 @@
+/* Global */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+/* Navbar */
+
+.navbar-nav {
+  text-align: right;
+}
+
+.navbar-nav a {
+  font-size: 14px;
+  font-weight: regular;
+  text-transform: uppercase;
+  color: white;
+}
+
+.navbar-nav li {
+  padding-left: 40px;
+}
+
+.main {
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}
+
+h1 {
+  text-align: center;
+  font-size: 75px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  padding-bottom: 55px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Droid Serif";
+  color: white;
+  padding-bottom: 55px;
+}
+
+.btn {
+  position: absolute;
+  left: 50%;
+  transform:translate(-50%,0);
+  background: #fed136;
+  font-size: 18px;
+  font-weight: bold;
+  width: 240px;
+  height: 65px;
+  border: none;
+}
+
+.btn:hover {
+  background: white;
+  color: #fed136;
+}
+
+.main {
+  position: relative;
+}
+
+.title a {
+  padding-top: 20px;
+  position: absolute;
+  left: 50%;
+  transform:translate(-50%,0);
+}
+
+h3 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h4 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  font-family: 'Roboto Slab', serif;
+}
+
+/* Skills */
+
+.offer p {
+  font-size: 14px;
+  font-family: "Droid Serif";
+}
+
+.skills p {
+  text-align: center;
+  font-size: 16px;
+  color: #777;
+  font-family: "Droid Serif";
+}
+
+.card {
+  height: 393px;
+  width: auto;
+  border: none
+}
+
+/* Address */
+
+.address {
+  background: #f7f7f7;
+}
+
+.list-inline li {
+  background: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.list-inline li:first-child:hover {
+  background: #00aced;
+}
+
+.list-inline li:nth-child(2):hover {
+  background: #3b5998;
+}
+
+.list-inline li:nth-child(3):hover {
+  background: #cb2028;
+}
+
+.list-inline li:last-child:hover {
+  background: #da2713;
+}
+
+i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  color: white;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/*# sourceMappingURL=style.css.map */

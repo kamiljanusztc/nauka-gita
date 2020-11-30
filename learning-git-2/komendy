@@ -1,0 +1,12 @@
+autoprefixer-cli -o style.prefixed.css style.css
+
+{
+  "extends": [
+    "htmlvalidate:recommended"
+  ],
+
+  "rules": {
+    "close-order": "error",
+    "void": ["warn", {"style": "omit"}]
+  }
+}
