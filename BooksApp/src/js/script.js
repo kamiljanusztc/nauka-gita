@@ -1,32 +1,46 @@
+/* global Handlebars, dataSource */
+
 {
-  'use strict';
+  ('use strict');
 
   const select = {
     templateOf: {
-      menuProduct: '#template-book',
+      book: '#template-book',
     },
     container: {
-      poroductList: '.books-list',
-    }
-  }
-
-  const templates = {
-    menuProduct: Handlebars.compile(document.querySelector(select.templateOf.menuProduct).innerHTML),
-    productList: Handlebars.compile(document.querySelector(select.container.productList).innerHTML),
+      booksList: '.books-list',
+    },
   };
 
-  render() {
-    for(data of dataSource.books) {
-      const generatedHTML = templates.productList;
-      const generateDOM = utils.createDOMFromHTML(generatedHTML);
+  const templates = {
+    book: Handlebars.compile(
+      document.querySelector(select.templateOf.book).innerHTML
+      ),
+  };
 
-      const productListContainer = document.querySelector(select.container.productList);
-      productListContainer.appendChild(generateDOM);
+  const containers = {
+    booksList: document.querySelector(
+      select.container.booksList),
+  };
+
+
+  function render() {
+    for(const data of dataSource.books) {
+      const generatedHTML = templates.book(data);
+      const generateDOM = utils.createDOMFromHTML(generatedHTML);
+      containers.booksList.appendChild(generateDOM);
     }
   }
+
+  render();
 }
 
-render();
+
+
+
+
+
+
 
 
 
