@@ -14,7 +14,7 @@
 
   const classNames = {
     bookImage: '.book__image',
-  }
+  };
 
   const templates = {
     book: Handlebars.compile(
@@ -37,7 +37,7 @@
 
   render();
 
-  favoriteBooks = [];
+  const favoriteBooks = [];
 
   function initActions() {
 
